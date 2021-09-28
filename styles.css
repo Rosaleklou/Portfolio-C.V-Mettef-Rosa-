@@ -39,3 +39,62 @@ h1 span {opacity:0;}
 }
 
 /* ......................animation h1 fini..................... */
+.btn-primary{
+    margin-left: 10px;
+}
+.btn-primary{
+    background-color: wheat;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(145, 31, 120);
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 10pxs;
+}
+#offcanvasRightLabel{
+    font-size: 25px;
+    color: rgb(145, 31, 120);
+}
+a{
+    font-size: 20px;
+    color:rgb(145, 31, 120)
+}
+
+/* ...........................css header................................ */
+navbar{
+    color: white;
+  } 
+  .navbar-nav{
+      /* background-color: rgb(245, 186, 213); */
+      border-radius: 10px;
+      font-size: 20px;  
+      padding: 10px;
+  }
+  .nav-link{
+      border: solid 5px wheat;
+      border-radius: 50px;
+      background-color: rgb(145, 31, 120);
+      padding: 10px;
+      margin: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic; 
+      
+  }
+  .nav-item .nav-link{
+      color: white;
+  }
+  .nav-item:hover a{
+      border: solid 3PX rgb(145, 31, 120);
+      background-color: rgb(255, 255, 255);
+      color: black;
+  }
+  .navbar-brand{
+      color: rgb(145, 31, 120);
+  }
+  .navbar-toggler{
+      color: rgb(145, 31, 120);
+  }
+  .navbar-toggler-icon{
+      border: solid 2px rgb(145, 31, 120);
+      background-color: rgb(153, 45, 129);
+  }

@@ -203,16 +203,100 @@ li{
     font-size: 15px;
     color: rgb(145, 31, 120);
 }
+ /* .......................css articles.......................... */
+
+ .articles{
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding: 1px;
+    border-radius: 20px;
+    background-color: rgb(243, 174, 186);
+}
+#formatis{
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* border: solid 1px rgb(145, 31, 120); */
+}
+p{
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* ..............................CONTACTEZ MOI............... */
+.c-moi{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 30px;
+    color: rgb(145, 31, 120);
+    /* background-color: rgba(245, 222, 179, 0.637); */  
+}
+.div-tel{
+    background-color: rgba(245, 222, 179, 0.671);
+    font-weight: 500;
+    font-size: 20px;
+    height: 130px;
+    text-align: center;
+    border-bottom: solid 30px rgb(145, 31, 120);
+    display: inline-block;
+    margin: 50px;
+    color: rgb(145, 31, 120);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 50PX 50PX 100px  rgba(107, 13, 69, 0.5);
+    /* transform: translateY(100px);
+    opacity: 3;
+    transition: 0.8s; */
+} 
+#contact{
+    background-image: url(./images/ecrire-M.png);
+    border-radius: 10px;
+    margin-top: 80px;
+    /* border: solid 2px rgb(145, 31, 120); */
+}
+a{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* ............................CSS RESEAUX...................... */
+
+#menu-reseau{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+#btn-social{
+    border-radius: 50%;
+    margin-right: 30px;    
+    margin-left: 30px;
+}
+.copy-right{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+/* ...............................css footer................. */
+footer{
+    background-image: url(./images/back-tourné-mm.png);
+    height: 370px; 
+    width: 100%;
+}
 
 
 
 
 
 
-
-
-  /* ............................css footer.................... */
-  footer{
-      height: 300px;
-      background-image: url(./images/back-tourné-mm.png);
-  }
+  

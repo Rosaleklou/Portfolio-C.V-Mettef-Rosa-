@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
@@ -18,7 +19,7 @@ h1{
     color: wheat;
     font-size: 90px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 70px;
+    padding: 50px;
 }
 h1 span {opacity:0;}
 .letter01 {animation:letters 4s ease 0000ms forwards;}
@@ -61,13 +62,13 @@ a{
 }
 
 /* ...........................css header................................ */
-navbar{
-    color: white;
+.navbar{
+    color: wheat;
   } 
   .navbar-nav{
       /* background-color: rgb(245, 186, 213); */
       border-radius: 10px;
-      font-size: 20px;  
+      font-size: 15px;  
       padding: 10px;
   }
   .nav-link{
@@ -98,22 +99,55 @@ navbar{
       border: solid 2px rgb(145, 31, 120);
       background-color: rgb(153, 45, 129);
   }
+
+  .text-citation{
+      padding: 30px;
+      font-weight: 200;
+      font-size: 40px;
+      color: rgb(153, 45, 129);
+      /* font-style: italic; */
+      font-family: parisienne;
+      /* background-image: url(./images/cita-m\ m.png); */
+  }
+  .vie-rose{
+      font-size: 20px;
+      font-weight: 300;
+  }
   /* .....................css biographie............................. */
   #biographie{
-    padding: 30px;   
+    height: 700px;
+    padding: 20px;   
     margin-top: 50px;
+    background-image: url(./images/ROSA-ROSA-VB.png);
+}
+#image-biographie{
+    padding: 20px;
 }
 #img-biographie{
+    margin-top: 30px;
     border-radius: 50%;
     width: 100%;
     height: auto;
 }
 #texte-biographie{
     /* text-align: center; */
+    font-size: 25px;
+    color: black;
+    /* font-style: italic; */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    background-color: rgba(188, 143, 143, 0.5);;
+    padding: 20px;
+    border-radius: 20px;
+}
+.developpeur{
+    color: rgba(0, 0, 0, 0.637);
     font-size: 20px;
     font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
-    align: right
+}
+.rosa{
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 /* ...........................css accordion..................... */
@@ -142,7 +176,7 @@ navbar{
 
 } */
 
-...................#accordionFlushExample{
+#accordionFlushExample{
     background-color: wheat;
     height: 400px;
     margin-bottom: 60px;
@@ -254,7 +288,7 @@ p{
     transition: 0.8s; */
 } 
 #contact{
-    background-image: url(./images/ecrire-M.png);
+    background-image: url(./images/ecrire-IIIIIIIII.png);
     border-radius: 10px;
     margin-top: 80px;
     /* border: solid 2px rgb(145, 31, 120); */
@@ -269,8 +303,9 @@ a{
 
 #menu-reseau{
     background-color: white;
-    padding: 5px;
+    padding: 20px;
     border-radius: 20px;
+    margin-left: 60px;
     
 }
 #btn-social{
@@ -289,9 +324,144 @@ a{
 
 /* ...............................css footer................. */
 footer{
-    background-image: url(./images/back-tourné-mm.png);
-    height: 370px; 
-    width: 100%;
+    height: 300px;
+}
+
+/* ..............css animation footer ....................... */
+.ocean { 
+    /* background: url(./images/back-tourné-mm.png); 
+    height: 300px;
+    width:100%;
+    
+    bottom:0;
+    left:0;
+    /* position: absolute; */
+    /* background: rgb(145, 31, 120); */
+  }
+  
+  .wave {
+    background: url(./images/back-tourné-mm.png); 
+    position: absolute;
+    top: 3400px;
+    width: 6400px;
+    height: 250px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  /* .wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  } */
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-25px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }
+
+
+
+
+
+
+/* .................................................... */
+@media (max-width:780px){
+    header{
+        height: 350px;
+    }
+    h1{
+        font-size: 40px;
+        padding: 90px;
+    }
+   
+    .div-tel{
+        margin:20px;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 10px;
+        height: 100px;
+        text-align: center;
+        border-bottom: solid 30px wheat;
+        /* border-radius: 20px; */
+        display: inline-block;
+      
+        /* margin: 50px; */
+    }
+    a{
+        font-size: 20px;
+    }
+    
+    .navbar-nav{
+        font-size: 20px;  
+        padding: 10px;
+    }
+    .nav-link{
+        background-color: rgb(145, 31, 120);
+        padding: 5px;
+        margin: 10px;
+    }
+    H2{
+        padding: 3px;
+    }
+    footer{
+        height: 200px;
+
+    }
+    .btn-primary{
+        background-color: wheat;
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(145, 31, 120);
+        border-radius: 20px;
+        padding: 5px;
+        margin-left: 10pxs;
+    }
+    h4{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+  
+@media (max-width:500px){
+    header{
+        height: 350px;
+    }
+    h1{
+        font-size: 30px;
+        padding: 90px;
+    }
+    .div-tel{
+        font-weight: 500;
+        font-size: 15px;
+        padding: 3px;
+        height: 80px;
+        text-align: center;
+        border-bottom: solid 30px wheat;
+        /* border-radius: 20px; */
+        /* display: inline-block; */
+        /* margin: 50px; */
+    }
+    a{
+        font-size: 15px;
+    }
+    
+    footer{
+        height: 150px;
+    }   
 }
 
 
